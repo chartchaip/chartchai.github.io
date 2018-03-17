@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hello</title>
+    <style>
+        button {
+            background-color: rgb(100, 100, 248);
+        }
+       .text {
+           color: chocolate;
+           font-size: 20px;
+       } 
+
+       my-img {
+           width: 100%;
+           background-image: url('./img/fish.bmp')
+       }
+    </style>
+    <!..JavaScript -->
+    <script>
+        function onAleart() {
+            alert('Hello World......!!');
+        }
+        
+        function onAleartMytext (text){
+            var mergeText = text + document.getElementById('myText').value;
+            alert(mergeText);
+        }
+        
+    </script>
+</head>
+<body>
+
+    Hello Friend <br>
+    <!-- Img Tag -->
+    <img src="./img/backgr.png"></img><br>
+    <h1 class="my-img">ภาพธรรมชาติ</h1>
+    <img src="./img/fish.bmp"></img>
+    <h1 class="my-img">รูปภาพการ์ตูน</h1>
+
+
+
+     <h1 class="text">สวัสดีสีช๊อค</h1> <br><br><br>
+    <button><h1 class="text1 text">สวัสดีหัวหน้า</H1></button>
+    <button onclick="onAleart()" style="background-color:red;"><h1 style=color:aquamarine
+    >hi everyone</h1></button>
+    <h1>H1</h1> <button><h2>สวัสดีครับ</h2></button>
+    <h1>H2</h1>
+    <h4>H4</h4>
+    <h6>H6</h6>
+    <button><h1>Hi สวัสดีครับ</h1></button><button>สวัสดีค่ะ</button><button><h1>ดีครับ</h1></button>
+    <button style = "background-color:#DF0174;"><h1>ขอโทษครับ</h1></button>
+    <hr><br>
+    please enter text: <input type="text" id="myText"></input>
+    <button onclick ="onAleartMytext('Hi your Hello. ')">OK</body>
+
+</body>
+</html>
